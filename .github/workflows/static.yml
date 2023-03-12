@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Loja de Publicação de Livros</title>
+    <link rel="stylesheet" href="style.css">
+    <style>body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #005577;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+.livros h2,
+.autores h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.livros ul,
+.autores ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding:
+</style>
+  </head>
+  <body>
+    <header>
+      <h1>Loja de Publicação de Livros</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Livros</a></li>
+          <li><a href="#">Autores</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="livros">
+        <h2>Livros em destaque</h2>
+        <ul>
+          <li>
+            <img src="livro1.jpg" alt="Capa do livro 1">
+            <h3>Livro 1</h3>
+            <p>Descrição do livro 1</p>
+            <p>Preço: R$ 50,00</p>
+            <button>Comprar</button>
+          </li>
+          <li>
+            <img src="livro2.jpg" alt="Capa do livro 2">
+            <h3>Livro 2</h3>
+            <p>Descrição do livro 2</p>
+            <p>Preço: R$ 40,00</p>
+            <button>Comprar</button>
+          </li>
+        </ul>
+      </section>
+      <section class="autores">
+        <h2>Autores em destaque</h2>
+        <ul>
+          <li>
+            <img src="autor1.jpg" alt="Foto do autor 1">
+            <h3>Autor 1</h3>
+            <p>Descrição do autor 1</p>
+            <button>Ver Livros</button>
+          </li>
+          <li>
+            <img src="autor2.jpg" alt="Foto do autor 2">
+            <h3>Autor 2</h3>
+            <p>Descrição do autor 2</p>
+            <button>Ver Livros</button>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <p>Loja de Publicação de Livros - Todos os direitos reservados</p>
+    </footer>
+  </body>
+</html>
